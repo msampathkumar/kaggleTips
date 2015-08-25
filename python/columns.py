@@ -1,9 +1,6 @@
 '''
 Here are few generic way you can apply to convert - few object columns to int64
 '''
-import numpy as np
-import pandas as pd
-
 from sklearn import preprocessing
 
 for i in range(df_train.shape[1]):
