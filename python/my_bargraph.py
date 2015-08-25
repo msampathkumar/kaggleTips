@@ -20,4 +20,7 @@ def my_bargraph(item_names=('apple','banana','orange'), item_values=[20,80,50], 
         plt.show()
     print(', '.join(item_names))
     
+# just prints data
 my_bargraph()
+# show graph
+my_bargraph(check=False)
