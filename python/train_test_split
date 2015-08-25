@@ -1,0 +1,21 @@
+'''
+Here you are going to learn how split data in .
+'''
+
+
+########### Method 1
+from sklearn.cross_validation import train_test_split
+
+data_train, data_test, res_train,  res_test = train_test_split(data, res, test_size=0.2, random_state=43)
+
+# test_size=0.2 => indicates fraction of training data to be made as test data.
+
+
+########### Method 2
+
+
+########### Method 3
+
+
+########### Method 4
+
